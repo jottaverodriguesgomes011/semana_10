@@ -6,8 +6,6 @@ class Lampada:
         self.estado = True
 
 led = Lampada ()
-print(led.estado) # Ligado ou Desligado
-led.set_state()
-print(led.estado) # Ligado ou Desligado
-led.set_state()
-print(led.estado) # Ligado ou Desligado
+
+while True:
+    print('O estado atual da lampada é:', led.estado)
