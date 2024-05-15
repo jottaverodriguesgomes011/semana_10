@@ -3,7 +3,7 @@ class Lampada:
         self.estado = False
 
     def set_state(self):
-        self.estado = True
+        self.estado = not self.estado
 
 led = Lampada ()
 
