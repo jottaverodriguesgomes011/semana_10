@@ -14,3 +14,6 @@ while True:
     print('Digite [0] para sair do programa')
 
     option = input('Digite sua escolha: ')
+
+    if option == '!':
+        led.set_state()
