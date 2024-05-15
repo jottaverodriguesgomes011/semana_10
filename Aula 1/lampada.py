@@ -9,3 +9,6 @@ led = Lampada ()
 
 while True:
     print('O estado atual da lampada é:', led.estado)
+    
+    print('Digite [!] para alterar o estado da lampada')
+    print('Digite [0] para sair do programa')
