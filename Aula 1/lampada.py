@@ -12,3 +12,5 @@ while True:
     
     print('Digite [!] para alterar o estado da lampada')
     print('Digite [0] para sair do programa')
+
+    option = input('Digite sua escolha: ')
