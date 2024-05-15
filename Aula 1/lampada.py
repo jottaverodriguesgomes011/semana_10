@@ -17,3 +17,5 @@ while True:
 
     if option == '!':
         led.set_state()
+    elif option == 0:
+        break;
